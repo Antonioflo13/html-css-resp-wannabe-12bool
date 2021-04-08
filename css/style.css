@@ -1,0 +1,80 @@
+/* common */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 10px;
+  text-align: center;
+}
+[class*=col-] {
+  padding: 10px;
+  margin-top: 20px;
+}
+[class*=col-] img,
+[class*=col-] h3, 
+[class*=col-] p
+{
+  margin-bottom: 10px;
+}
+img {
+  height: 100%;
+}
+
+/* backgrounds */
+#bg-grey {
+  background-color: #778BAD;
+  transition: 2s;
+}
+#bg-yellow {
+  background-color: #F6C47A;
+  transition: 2s;
+}
+#bg-azure {
+  background-color:rgba(69, 139, 202, 0.4);
+  transition: 2s;
+}
+
+/* body */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* lessons */
+.container img {
+  height: 100px;
+}
+
+/* why */
+#why img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 10px
+}
+hr {
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+/* media query */
+@media screen and (min-width: 992px) {
+  p {
+    font-size: 18px;
+  }
+  hr {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) { 
+  hr {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  h1 {
+    font-size: 30px;
+  }
+}
